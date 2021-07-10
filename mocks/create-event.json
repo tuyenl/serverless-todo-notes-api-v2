@@ -1,3 +1,8 @@
 {
-  "body": "{\"userId\":\"123\",\"noteId\":\"bf586970-1007-11eb-a17f-a5105a0818d3\",\"content\":\"hello world\",\"attachment\":\"hello.jpg\",\"createdAt\":1602891102599}"
+  "body": "{\"userId\":\"123\",\"noteId\":\"bf586970-1007-11eb-a17f-a5105a0818d3\",\"content\":\"hello world\",\"attachment\":\"hello.jpg\",\"createdAt\":1602891102599}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
 }

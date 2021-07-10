@@ -13,7 +13,6 @@ export default function handler(lambda) {
     return {
       statusCode,
       body: JSON.stringify(body),
-      message: JSON.stringify({ message: 'returned from within handler' }),
     };
   };
 }
